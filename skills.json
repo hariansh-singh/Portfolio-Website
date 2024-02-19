@@ -13,7 +13,7 @@
     },
     {
         "name": "NLP",
-        "icon": "Icon_Link_NLP"
+        "icon": "https://img.icons8.com/external-flaticons-lineal-color-flat-icons/48/external-natural-language-processing-big-data-flaticons-lineal-color-flat-icons.png"
     },
     {
         "name": "DevOps",
@@ -41,7 +41,7 @@
     },
     {
         "name": "Streamlit",
-        "icon": ""
+        "icon": "https://img.icons8.com/stencil/48/deployment.png"
     },
     {
         "name": "MySQL",
