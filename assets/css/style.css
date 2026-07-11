@@ -409,6 +409,45 @@ header .navbar ul li a:hover {
 .about .row .content .box-container .box p span {
   color: #011aff;
 }
+
+/* quick-stats badges */
+.quick-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.stat-badge {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  padding: 0.6rem 1.4rem;
+  background: linear-gradient(135deg, #f0f0ff, #e8e0ff);
+  border: 1px solid #c4b5fd;
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #3b0764;
+  font-family: "Poppins", sans-serif;
+  transition: all 0.25s ease;
+  text-transform: none;
+}
+.stat-badge i {
+  font-size: 1.3rem;
+  color: #7c3aed;
+}
+.stat-badge:hover {
+  background: linear-gradient(135deg, #7c3aed, #4f46e5);
+  color: #fff;
+  border-color: transparent;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(124, 58, 237, 0.35);
+}
+.stat-badge:hover i {
+  color: #fff;
+}
+/* quick-stats badges end */
+
 .resumebtn {
   margin-top: 6rem;
 }
@@ -779,6 +818,15 @@ header .navbar ul li a:hover {
   left: 50%;
   margin-left: -3px;
   z-index: -2;
+}
+.experience .desc .exp-desc {
+  font-size: 1.3rem;
+  color: #555;
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  margin-top: 0.4rem;
+  text-transform: none;
+  font-style: italic;
 }
 .experience .container {
   padding: 10px 40px;

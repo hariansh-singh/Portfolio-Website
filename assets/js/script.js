@@ -63,15 +63,14 @@ document.addEventListener('visibilitychange',
             $("#favicon").attr("href", "assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            document.title = "Come Back! 👋 Hariansh's Portfolio";
         }
     });
 
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Data Science", "Machine Learning", "Deep Learning", "MLOps", "DevOps", "Artificial Intelligence"],
+    strings: ["Software Development", "React Development", "Angular Development", ".NET Development", "AI Agents", "Full-Stack Dev", "Machine Learning", "DevOps"],
     loop: true,
     typeSpeed: 75,
     backSpeed: 40,

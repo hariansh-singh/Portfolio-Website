@@ -4,6 +4,10 @@
         "icon": "https://img.icons8.com/color/48/angularjs.png"
     },
     {
+        "name": "React",
+        "icon": "https://img.icons8.com/color/48/react-native.png"
+    },
+    {
         "name": ".NET",
         "icon": "https://img.icons8.com/color/48/net-framework.png"
     },
@@ -31,10 +35,7 @@
         "name": "DevOps",
         "icon": "https://img.icons8.com/fluency/50/infinity.png"   
     },
-    {
-        "name": "MLOps",
-        "icon": "https://img.icons8.com/emoji/50/000000/infinity-emoji.png"
-    },
+
     {
         "name": "C++",
         "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
