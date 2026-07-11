@@ -24,7 +24,7 @@ document.addEventListener('visibilitychange',
             $("#favicon").attr("href", "/assets/images/favicon.png");
         }
         else {
-            document.title = "Come Back To Portfolio";
+            document.title = "Come Back! 👋 Hariansh's Portfolio";
             $("#favicon").attr("href", "/assets/images/favhand.png");
         }
     });
@@ -46,7 +46,7 @@ function showProjects(projects) {
     projects.forEach(project => {
         projectsHTML += `
         <div class="grid-item ${project.category}">
-        <div class="box tilt" style="width: 380px; margin: 1rem">
+        <div class="box tilt">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
@@ -69,10 +69,7 @@ function showProjects(projects) {
     // isotope filter products
     var $grid = $('.box-container').isotope({
         itemSelector: '.grid-item',
-        layoutMode: 'fitRows',
-        masonry: {
-            columnWidth: 200
-        }
+        layoutMode: 'fitRows'
     });
 
     // filter items on button click
