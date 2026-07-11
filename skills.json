@@ -1,5 +1,17 @@
 [
     {
+        "name": "Angular",
+        "icon": "https://img.icons8.com/color/48/angularjs.png"
+    },
+    {
+        "name": ".NET",
+        "icon": "https://img.icons8.com/color/48/net-framework.png"
+    },
+    {
+        "name": "AI_Agents",
+        "icon": "https://img.icons8.com/pulsar-color/48/bot.png"
+    },
+    {
         "name": "Machine_Learning",
         "icon": "https://img.icons8.com/pulsar-color/48/000000/artificial-intelligence.png"
     },
