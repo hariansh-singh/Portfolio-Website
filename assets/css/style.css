@@ -1089,6 +1089,47 @@ header .navbar ul li a:hover {
 /* experience media queries ends */
 /* experience section ends */
 
+/* recommendations section starts */
+.recommendations {
+  background: #fdfdfd;
+  min-height: 50vh;
+}
+.recommendations .box-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  margin-top: 2rem;
+  justify-content: center;
+}
+.recommendations .box-container .box {
+  flex: 1 1 30rem;
+  max-width: 45rem;
+  border-radius: .5rem;
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.1);
+  padding: 2.5rem;
+  background: #fff;
+}
+.recommendations .box-container .box .content p {
+  font-size: 1.5rem;
+  color: #333;
+  line-height: 2;
+  font-style: italic;
+  margin-bottom: 2rem;
+}
+.recommendations .box-container .box .content .info {
+  border-top: 1px solid #ccc;
+  padding-top: 1.5rem;
+}
+.recommendations .box-container .box .content .info h3 {
+  font-size: 1.8rem;
+  color: #002057;
+}
+.recommendations .box-container .box .content .info span {
+  font-size: 1.4rem;
+  color: #ff7b00;
+}
+/* recommendations section ends */
+
 /* contact section starts */
 .contact {
   background: #e5ecfb;
