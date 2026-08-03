@@ -1115,6 +1115,7 @@ header .navbar ul li a:hover {
   line-height: 2;
   font-style: italic;
   margin-bottom: 2rem;
+  text-transform: none;
 }
 .recommendations .box-container .box .content .info {
   border-top: 1px solid #ccc;
@@ -1123,10 +1124,12 @@ header .navbar ul li a:hover {
 .recommendations .box-container .box .content .info h3 {
   font-size: 1.8rem;
   color: #002057;
+  text-transform: none;
 }
 .recommendations .box-container .box .content .info span {
   font-size: 1.4rem;
   color: #ff7b00;
+  text-transform: none;
 }
 /* recommendations section ends */
 
